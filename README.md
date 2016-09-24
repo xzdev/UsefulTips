@@ -18,6 +18,13 @@ git config --global diff.tool opendiff
 git log --name-only
 ```
 
+- Move last commit to a different branch
+```
+git branch newbranch
+git reset --hard HEAD~1 # Go back 1 commit. You *will* lose uncommitted work.*1
+git checkout newbranch
+```
+
 - Create your alias
 ```
 [alias]
@@ -32,7 +39,15 @@ git log --name-only
 ```
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
+- [10 Sublime plugins for full stack developer](https://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/)
+
+## SSH tricks
+- [SSH tunneling to remote MySQL](http://stackoverflow.com/questions/22639188/how-can-i-use-ssh-tunneling-to-connect-to-a-remote-mysql-server)
+```
+ssh -L 3306:localhost:3306 myuser@mylinuxserver.mycompany.com
+```
 
 ## Reading Materials for Advanced JavaScript Developer
 - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
 - [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+- [Exploring ES6 by Dr. Axel Rauschmayer](http://exploringjs.com/es6/)
