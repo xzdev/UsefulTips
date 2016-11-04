@@ -8,7 +8,7 @@
 * [Reading](#reading)
 
 ## Git
-- [Set XCode FileMerge as default difftool and mergetool] (Git/Gitdiff.md)
+- [Set XCode FileMerge as default difftool and mergetool] (Git/GitDiff.md)
 - [Show what files are checked in] (Git/ShowFiles.md)
 - [Move last commit to a different branch] (Git/MoveToBranch.md)
 - [Create your alias] (Git/CreateAlias.md)
@@ -18,6 +18,7 @@
 - [10 Sublime plugins for full stack developer](https://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/)
 
 ## JavaScript
+- [Stack and Queue in JavaScript](JavaScript/StackQueue.md)
 
 ## Go
 
