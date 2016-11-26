@@ -21,7 +21,7 @@
 - [Stack and Queue in JavaScript](JavaScript/StackQueue.md)
 
 ## Go
-
+- [Repeat function every hour](Golang/Repeat.md)
 
 ## Linux
 - [SSH tunneling to remote MySQL](Linux/SSH.md)
