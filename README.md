@@ -19,6 +19,7 @@
 
 ## JavaScript
 - [Stack and Queue in JavaScript](JavaScript/StackQueue.md)
+- [JavaScript Number and Math in ES6](JavaScript/Es6NumberAndMath.md)
 
 ## Go
 - [Repeat function every hour](Golang/Repeat.md)
