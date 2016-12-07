@@ -1,6 +1,7 @@
 ## ES6 Number and Math
 The following content is a summary of the chapter 5 [New number and Math features](http://exploringjs.com/es6/ch_numbers.html) of the [Exploring ES6](http://exploringjs.com/es6/).
-1. New integer literal - binary and octal notation
+### New Integer Literal
+- binary and octal notation
 ```
 > 0b0011
 > 0B0010
@@ -8,9 +9,11 @@ The following content is a summary of the chapter 5 [New number and Math feature
 > 0O640
 > 255..toString(16) //ff
 ```
-2. New Number Properties
+
+### New Number Properties
 - JavaScript numbers are all floating point, stored according to the [IEEE 754 standard](https://en.wikipedia.org/wiki/IEEE_floating_point)
 - Number.EPSILON
+Number.EPSILON specifies a reasonable margin of error when comparing floating point numbers.
 ```
 > 0.1 + 0.2 === 0.3 // false
 > function epsEqu(x, y) {
@@ -98,7 +101,7 @@ isSafeInteger(a) && isSafeInteger(b) && isSafeInteger(a op b)
  > Number('0b111') // 7
  > Number('0o10') // 8
 ```
-3. New Math methods
+### New Math methods
 - Math.sign(num)
 ```
 > Math.sign(-8)
@@ -147,6 +150,6 @@ NaN
 ```
 - Math.sinh(x), Math.cosh(x), Math.tanh(x), Math.asinh(x), Math.acosh(x), Math.atanh(x)
 - Math.hypot([value1[, value2[, ...]]])
-4. How can I use integers beyond JavaScript’s 53 bit range
+### How can I use integers beyond JavaScript’s 53 bit range
 - Use string for IDs
 - Use libraray e.g. [decimal.js](https://github.com/MikeMcl/decimal.js/)
