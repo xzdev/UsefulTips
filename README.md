@@ -2,6 +2,7 @@
 
 * [Git](#git)
 * [Go](#go)
+* [Docker](#docker)
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Sublime](#sublime)
@@ -23,6 +24,9 @@
 
 ## Go
 - [Repeat function every hour](Golang/Repeat.md)
+
+## Docker
+- [Remove stopped containers](Docker/RemoveContainer.md)
 
 ## Linux
 - [SSH tunneling to remote MySQL](Linux/SSH.md)
