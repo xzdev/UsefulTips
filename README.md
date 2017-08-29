@@ -6,6 +6,8 @@
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Sublime](#sublime)
+* [VSCode](#vscode)
+* [Mac](#mac)
 * [Reading](#reading)
 
 ## Git
@@ -36,6 +38,9 @@
 ## Linux
 - [SSH tunneling to remote MySQL](Linux/SSH.md)
 - [VIM open file and set cursor to specific line](Linux/VimOpen.md)
+
+## Mac
+- [Convert OSX Screencast to GIF](https://gist.github.com/dergachev/4627207)
 
 ## Reading Materials for Advanced JavaScript Developer
 - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
